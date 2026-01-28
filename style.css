@@ -230,7 +230,7 @@ font-weight: var(--fw-bold);
   padding: 0.5em;
   width: 2em;
   aspect-ratio: 1;
-  background-image: url(images/menu.svg);
+  background-image: url("images/menu.svg") !important;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -238,7 +238,7 @@ font-weight: var(--fw-bold);
   }
 
   .mobile-nav-toggle[aria-expanded=true] {
-    background-image: url(/images/close.svg);
+    background-image: url("images/close.svg") !important;
 
   }
   .icon-hamburger .icon-close {
@@ -304,7 +304,7 @@ font-weight: var(--fw-bold);
 }
 
 .bg-img {
-  background-image: url(/images/bg-img.jpg);
+  background-image: url("images/bg-img.jpg") !important;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -397,7 +397,7 @@ font-weight: var(--fw-bold);
 /*PROJECTS*/
 
 .bg-img2 {
-  background-image: url(images/bg-img4.jpg);
+  background-image: url("images/bg-img4.jpg") !important;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
